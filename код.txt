@@ -1,0 +1,9 @@
+from random import randint
+ticket = []
+while len(ticket) < 6:
+    num = randint(1, 49)
+    if num not in ticket:
+        ticket.append(num)
+        
+ticket.sort()
+print("Номер билета:", ticket)
