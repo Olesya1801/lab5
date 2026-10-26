@@ -1,3 +1,4 @@
+Задание 1:
 from random import randint
 ticket = []
 while len(ticket) < 6:
